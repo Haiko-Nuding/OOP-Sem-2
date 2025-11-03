@@ -1,0 +1,47 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+packages/
+# If using PackageReference, uncomment the following line
+# /obj/**/project.assets.json
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# DotCover
+*.dotCover
+
+# Rider caches
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Dotnet watch
+dotnet-watch.json
+
+# User-specific files
+*.userprefs
