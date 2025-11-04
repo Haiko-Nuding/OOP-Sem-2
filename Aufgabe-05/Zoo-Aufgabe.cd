@@ -1,2 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aufgabe_05.Art">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Art.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgabe_05.Futterung">
+    <Position X="10.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAEAAAAAAAAAAAIAAAQAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Futterung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgabe_05.Gehege">
+    <Position X="7" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAQCAAAAEAAwAAAAEEUgAIAA=</HashCode>
+      <FileName>Gehege.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PflegerListe" />
+      <Property Name="TiereListe" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Aufgabe_05.Pfleger">
+    <Position X="11.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Pfleger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgabe_05.Tier">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
