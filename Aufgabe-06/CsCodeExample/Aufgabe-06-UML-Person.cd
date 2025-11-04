@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CsCodeExample.Address">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ClassExample\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CsCodeExample.Human">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassExample\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CsCodeExample.Person">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEEAAAACAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ClassExample\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
