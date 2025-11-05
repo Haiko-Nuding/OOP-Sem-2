@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aufgabe_Input_Output
+{
+    internal class Book
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public int PublicationYear { get; set; }
+
+        public Book(int id, string title, string author, int publicationYear) 
+        {
+            Id = id;
+            Title = title;
+            Author = author;
+            PublicationYear = publicationYear;
+        }
+    }
+}
