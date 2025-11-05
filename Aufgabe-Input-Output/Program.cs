@@ -12,6 +12,7 @@ namespace Aufgabe_Input_Output
         {
             string outputPath = @"Output/book.json";
             WriteJSONFile(outputPath);
+            ReadJOSNFile(outputPath);
         }
 
         public static void ReadTextFile()
@@ -53,6 +54,18 @@ namespace Aufgabe_Input_Output
 
             // Optionale Ausgabe zur Bestätigung:
             System.Console.WriteLine($"Datei '{fileName}' erfolgreich geschrieben.");
+        }
+
+        public static void ReadJOSNFile(string inputPath) 
+        {
+            // 1. JSON STRING AUS DER DATEI LESEN
+            string jsonString = File.ReadAllText(inputPath);
+
+            // 2. JSON STRING IN EIN Book-OBJHEKT DESERIALISIEREN
+            Book book = JsonSerializer.Deserialize<Book>(jsonString);
+
+            // 3. Optionale Ausgabe zur Kontrolle
+            Console.WriteLine($"Book: Id={book.Id}, Title={book.Title}, Author={book.Author}, PublicationYear={book.PublicationYear}");
         }
     }
 }
